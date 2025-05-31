@@ -11,8 +11,9 @@ The Mess Management System is a simple C-based console application that simulate
 
 This project is designed for learning purposes, particularly to demonstrate file handling, user login simulation, and menu-driven interfaces in C programming.
 
-
+------------------------------------------
 🎯 Features
+
 
 ✅ Mess Provider:
 
@@ -25,6 +26,7 @@ View feedback from students
 View a weekly report based on student ratings
 
 
+
 ✅ Student:
 
 Login with name
@@ -32,6 +34,7 @@ Login with name
 View today’s menu
 
 Submit feedback (rating + complaint)
+
 
 
 🗂 Files Used
@@ -44,6 +47,7 @@ feedback.txt – Stores student feedback in the format: rating,complaint
 > ⚠ Both files are created/accessed automatically when you run the program.
 
 
+---------------------------------------------
 
 📁 Code Structure
 
@@ -54,11 +58,13 @@ Displays the main menu
 Directs user to either mess provider or student interface
 
 
+
 messproviderlogin()
 
 Simulates login using hardcoded credentials
 
 Access to menu addition, feedback viewing, and report
+
 
 
 addmenu()
@@ -68,6 +74,7 @@ Mess provider inputs meals
 Saves data to menu.txt
 
 
+
 studentlogin()
 
 Student enters their name
@@ -75,9 +82,11 @@ Student enters their name
 Can view menu or submit feedback
 
 
+
 viewmenu()
 
 Displays today’s menu by reading from menu.txt
+
 
 
 submitfeedback()
@@ -87,9 +96,11 @@ Takes rating and optional complaint
 Saves to feedback.txt
 
 
+
 viewfeedback()
 
 Displays all feedback lines from feedback.txt
+
 
 
 weeklyreport()
@@ -107,7 +118,7 @@ Username: gcoey
 Password: pass123
 
 
-
+-----------------------------------------------------------
 ⚙ How to Run
 
 1. Open any C compiler (Code::Blocks, Turbo C, GCC, etc.)
@@ -120,6 +131,8 @@ Password: pass123
 
 
 4. Interact via command-line inputs
+
+---------------------------------------------------
 
 🚀 Future Improvements (Ideas)
 
@@ -134,6 +147,8 @@ GUI interface using C/C++ graphics libraries or external tools
 Separate admin and student data files
 
 Store student name along with feedback
+
+-----------------------------------------------------------
 
 ### Watch the Demo Video
 
